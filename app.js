@@ -141,3 +141,54 @@ valor(); //null
 valor(1); //1
 valor(2, 3); //5
 valor(2, 3, 2); //2.5
+
+
+//Escreva uma função que recebe um número e retorna seu dobro.
+
+const double = num => num * 2; double(3);
+
+
+
+//Escreva uma função que recebe uma string e retorna seu tamanho.
+
+function str(tamanho){ 
+return tamanho.length
+}; 
+
+
+str("Javascript");
+
+
+//Escreva uma função que recebe um array de números e retorna o maior número.
+
+function greater(arr){ return Math.max(...arr)}; greater([2,3,8,9,7,2]);
+
+
+//Escreva uma função que recebe uma string e retorna a mesma string invertida.
+
+function inverse(str){ return str.split('').reverse().join('')}; inverse('Hello');
+'olleH'
+
+Escreva uma função que recebe um número e retorna true se ele for par e false se for ímpar.
+
+function parOuImpar(num){ 
+if(num % 2 === 1){ return ('FALSE')
+}else{ return 'TRUE'
+}
+};
+
+parOuImpar(3);
+
+/*Escreva uma função que recebe dois parâmetros: um array e um elemento. A função deve retornar true se o elemento estiver presente no array e false caso contrário.*/
+
+ function estaNoArray(arr, ele){ 
+    if (arr.includes(ele)){
+    return 'TRUE'
+}else{
+    return 'FALSE'
+}
+}
+
+estaNoArray([39,023,03,'maça', 'casa'], 'casa'); 
+estaNoArray([39,023,03,'maça', 'casa'], 'boleto');
+
