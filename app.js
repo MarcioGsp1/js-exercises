@@ -194,3 +194,117 @@ function estaNoArray(arr, ele) {
 
 estaNoArray([39, 023, 03, "maçã", "casa"], "casa");
 estaNoArray([39, 023, 03, "maçã", "casa"], "boleto");
+
+// Crie uma variável x e atribua o valor 10. Crie outra variável y e atribua o valor 5. Faça uma operação que some x e y.
+
+let x1 = 10;
+
+let y1 = 5;
+
+let soma_ = x1 + y1;
+
+// Crie uma variável a e atribua o valor 15. Crie outra variável b e atribua o valor 8. Faça uma operação que subtraia a de b.
+
+let a = 15;
+
+let b = 8;
+
+let sub = b - a;
+
+// Crie uma variável c e atribua o valor 6. Crie outra variável d e atribua o valor 3. Faça uma operação que multiplique c por d.
+
+let c = 6;
+
+let d = 3;
+
+let mult = c * d;
+
+//Crie uma variável e e atribua o valor 10. Crie outra variável f e atribua o valor 2. Faça uma operação que divida e por f.
+
+let e = 10;
+
+let f = 2;
+
+let div = e / f;
+
+//Crie uma variável g e atribua o valor 15. Crie outra variável h e atribua o valor 4. Faça uma operação que calcule o resto da divisão de g por h.
+
+let g = 15;
+
+let h = 4;
+
+let mod = g % h;
+
+//Crie uma variável i e atribua o valor 3. Crie outra variável j e atribua o valor 2. Faça uma operação que calcule o valor de i elevado a j.
+
+let i = 3;
+
+let j = 2;
+
+let tdp = i ** j;
+
+//Crie uma variável k e atribua o valor 5. Crie outra variável l e atribua o valor 3. Faça uma operação que calcule o valor de k elevado a l.
+
+let k = 5;
+
+let l = 3;
+
+let tdp2 = k ** l;
+
+//Crie uma variável m e atribua o valor 5. Crie outra variável n e atribua o valor 3. Faça uma operação que calcule a raiz cúbica de m elevado a n.
+
+let m = 5;
+
+let n = 3;
+
+let cb = Math.cbrt(m ** n);
+
+//Crie uma variável o e atribua o valor 10. Crie outra variável p e atribua o valor 2. Faça uma operação que calcule a raiz quadrada de o elevado a p.
+
+let o = 10;
+
+let p = 2;
+
+let resultado = Math.sqrt(Math.pow(o, p));
+
+//Crie uma variável q e atribua o valor 10. Crie outra variável r e atribua o valor 3. Faça uma operação que calcule o valor absoluto da diferença entre q e r.
+
+let q = 10;
+
+let r = 3;
+
+let ab = Math.abs(q - r);
+
+//Crie uma variável s e atribua o valor 20. Crie outra variável t e atribua o valor 7. Faça uma operação que calcule o valor médio entre s e t.
+
+let s = 20;
+
+let t = 7;
+
+let med = (s + t) / 2;
+
+//Crie uma variável u e atribua o valor 3. Crie outra variável v e atribua o valor 5. Faça uma operação que calcule a diferença entre u e v e, em seguida, calcule o valor absoluto dessa diferença.
+
+let u = 3;
+
+let v = 5;
+
+let dif = u - v;
+
+let valorAbsoluto = Math.abs(dif);
+
+//Crie uma variável w e atribua o valor 7. Crie outra variável x e atribua o valor 2. Faça uma operação que calcule o valor da divisão inteira de w por x.
+
+let w = 7;
+
+let x = 2;
+
+let $result = Math.floor(w / x);
+
+//Crie uma variável a1 e atribua o valor 5. Crie outra variável b1 e atribua o valor 7. Faça uma operação que calcule o valor máximo entre a1 e b1.
+
+let a1 = 5;
+
+let b1 = 7;
+
+let max = Math.max(a1, b1);
