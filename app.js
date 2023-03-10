@@ -308,3 +308,65 @@ let a1 = 5;
 let b1 = 7;
 
 let max = Math.max(a1, b1);
+
+
+// Crie uma variável "xl" e atribua a ela o valor 10. Em seguida, use o operador de atribuição aditiva para aumentar o valor de "xl" em 5.
+
+let xl = 10;
+xl += 5;
+
+
+//Crie uma variável "y" e atribua a ela o valor 20. Em seguida, use o operador de atribuição subtrativa para diminuir o valor de "y" em 7.
+
+let y = 20;
+y -= 7;
+
+
+// Crie uma variável "z" e atribua a ela o valor 30. Em seguida, use o operador de atribuição multiplicativa para multiplicar o valor de "z" por 2.
+
+let z = 30;
+z *= 2;
+
+
+// Crie uma variável "w1" e atribua a ela o valor 40. Em seguida, use o operador de atribuição divisiva para dividir o valor de "w1" por 4.
+
+let w1 = 40;
+w1 /= 4;
+
+
+// Crie uma variável "a2" e atribua a ela o valor 50. Em seguida, use o operador de atribuição modular para obter o resto da divisão de "a2" por 7.
+
+let a2 = 50;
+a2 %= 7;
+
+//Crie uma variável "b2" e atribua a ela o valor 60. Em seguida, use o operador de atribuição binária à esquerda para deslocar os bits do valor de "b2" em 2 posições para a esquerda.
+
+let b2 = 60;
+b2 <<= 2;
+
+
+// Crie uma variável "c1" e atribua a ela o valor 70. Em seguida, use o operador de atribuição binária à direita para deslocar os bits do valor de "c1" em 3 posições para a direita.
+
+let c1 = 70;
+c1 >>= 3;
+
+
+// Crie uma variável "d1" e atribua a ela o valor 80. Em seguida, use o operador de atribuição binária sem sinal à direita para deslocar os bits do valor de "d1" em 4 posições para a direita.
+
+let d1 = 80;
+d1 >>= 4;
+
+
+//Crie uma variável "e1" e atribua a ela o valor 90. Em seguida, use o operador de atribuição bit a bit AND para comparar o valor de "e1" com 15.
+
+let e1 = 90;
+e1 &= 15;
+
+
+// Crie uma variável "f" e atribua a ela o valor 100. Em seguida, use o operador de atribuição bit a bit OR para combinar o valor de "f" com 200.
+
+let f1 = 100;
+f1 |= 200;
+
+
+
