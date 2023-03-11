@@ -309,30 +309,25 @@ let b1 = 7;
 
 let max = Math.max(a1, b1);
 
-
 // Crie uma variável "xl" e atribua a ela o valor 10. Em seguida, use o operador de atribuição aditiva para aumentar o valor de "xl" em 5.
 
 let xl = 10;
 xl += 5;
-
 
 //Crie uma variável "y" e atribua a ela o valor 20. Em seguida, use o operador de atribuição subtrativa para diminuir o valor de "y" em 7.
 
 let y = 20;
 y -= 7;
 
-
 // Crie uma variável "z" e atribua a ela o valor 30. Em seguida, use o operador de atribuição multiplicativa para multiplicar o valor de "z" por 2.
 
 let z = 30;
 z *= 2;
 
-
 // Crie uma variável "w1" e atribua a ela o valor 40. Em seguida, use o operador de atribuição divisiva para dividir o valor de "w1" por 4.
 
 let w1 = 40;
 w1 /= 4;
-
 
 // Crie uma variável "a2" e atribua a ela o valor 50. Em seguida, use o operador de atribuição modular para obter o resto da divisão de "a2" por 7.
 
@@ -344,29 +339,105 @@ a2 %= 7;
 let b2 = 60;
 b2 <<= 2;
 
-
 // Crie uma variável "c1" e atribua a ela o valor 70. Em seguida, use o operador de atribuição binária à direita para deslocar os bits do valor de "c1" em 3 posições para a direita.
 
 let c1 = 70;
 c1 >>= 3;
-
 
 // Crie uma variável "d1" e atribua a ela o valor 80. Em seguida, use o operador de atribuição binária sem sinal à direita para deslocar os bits do valor de "d1" em 4 posições para a direita.
 
 let d1 = 80;
 d1 >>= 4;
 
-
 //Crie uma variável "e1" e atribua a ela o valor 90. Em seguida, use o operador de atribuição bit a bit AND para comparar o valor de "e1" com 15.
 
 let e1 = 90;
 e1 &= 15;
 
-
-// Crie uma variável "f" e atribua a ela o valor 100. Em seguida, use o operador de atribuição bit a bit OR para combinar o valor de "f" com 200.
+// Crie uma variável "f1" e atribua a ela o valor 100. Em seguida, use o operador de atribuição bit a bit OR para combinar o valor de "f1" com 200.
 
 let f1 = 100;
 f1 |= 200;
 
+//Crie duas variáveis x e y e compare se x é maior que y.
 
+function getRandom(n) {
+  return Math.floor(Math.random() * n);
+}
 
+x = getRandom(10);
+y = getRandom(10);
+
+x > y ? "X É MAIOR Y" : "X É MENOR Y";
+
+//Crie duas variáveis a e b e compare se a é menor que b.
+
+const n$ = (randomNumber) => Math.floor(Math.random() * randomNumber);
+
+a = n$(15);
+b = n$(15);
+
+a < b ? "A É MENOR B" : "B É MENOR A";
+
+//Crie duas variáveis p e q e compare se p é maior ou igual a q.
+
+function getR(n) {
+  return Math.floor(Math.random() * n);
+}
+
+p = getR(20);
+q = getR(20);
+
+p >= q
+  ? `P (${p}) É MAIOR OU IGUAL A Q (${q})`
+  : `P (${p}) NÃO É MAIOR E NEM IGUAL A Q (${q})`;
+
+//Crie duas variáveis d2 e e2 e compare se d2 é diferente de e2.
+
+let d2 = 10;
+let e2 = "10";
+e2 != d2;
+
+//Crie duas variáveis f2 e g2 e compare se f2 é estritamente igual a g2.
+
+let f2 = 12;
+let g2 = "12";
+f2 === g2;
+
+//Crie duas variáveis h2 e i2 e compare se h2 é estritamente diferente de i2
+
+let h2 = 14;
+let i2 = "14";
+h2 !== i2;
+
+//Crie duas variáveis aa e bb e compare se aa é maior que bb e menor que 100.
+
+function getRandom(n) {
+  return Math.floor(Math.random() * n);
+}
+
+let nx = 100;
+
+let aa = getRandom(100);
+
+let bb = getRandom(100);
+
+aa > bb && aa < nx
+  ? `${aa} É MAIOR QUE ${bb} E MENOR QUE ${nx}`
+  : `${aa} NÃO É MAIOR QUE ${bb}, MAS É MENOR QUE ${nx}`;
+
+//Crie duas variáveis ee e ff e compare se ee é igual a 10 e ff é estritamente igual a true.
+
+function getRandom(n) {
+  return Math.floor(Math.random() * n);
+}
+
+let num = 10;
+
+let ee = getRandom(100);
+
+let ff = ee == num;
+
+ee == num && ff === true
+  ? `${ee} É IGUAL A ${num} E ${ff} É VERDADEIRO`
+  : `${ee} NÃO É IGUAL A ${num}, E ${ff} NÃO É VERDADEIRO`;
