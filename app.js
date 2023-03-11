@@ -441,3 +441,58 @@ let ff = ee == num;
 ee == num && ff === true
   ? `${ee} É IGUAL A ${num} E ${ff} É VERDADEIRO`
   : `${ee} NÃO É IGUAL A ${num}, E ${ff} NÃO É VERDADEIRO`;
+
+/*Escreva um programa que solicita a idade do usuário e, se for maior ou igual a 18 anos, exibe a mensagem "Você é maior de idade". Caso contrário, exibe a mensagem "Você é menor de idade".*/
+
+let age = prompt("Digite sua idade: ");
+
+if (age >= 18) {
+  console.log("Você é maior de idade");
+} else {
+  console.log("Você é menor de idade");
+}
+
+/*Escreva um programa que verifica se um número é positivo ou negativo. Se o número for positivo, exiba a mensagem "O número é positivo". Caso contrário, exiba a mensagem "O número é negativo".*/
+
+let nn = -13;
+
+if (nn < 0) {
+  console.log("O número é negativo");
+} else {
+  console.log("O número é positivo");
+}
+
+/*Escreva um programa que solicita o nome de um usuário e verifica se ele é igual a "John". Se o nome for "John", exiba a mensagem "Olá, John! Bem-vindo de volta!". Caso contrário, exiba a mensagem "Olá, visitante!".*/
+
+let nameUser = prompt("Digite seu nome: ");
+let adm = "John";
+if (nameUser === adm) {
+  console.log("Olá, John! Bem-vindo de volta!");
+} else {
+  console.log("Olá, visitante!");
+}
+
+/*Escreva um programa que solicita um número inteiro e verifica se é par ou ímpar. Se o número for par, exiba a mensagem "O número é par". Caso contrário, exiba a mensagem "O número é ímpar".*/
+
+let valor_1 = prompt("Digite um número: ");
+
+if (valor_1 % 2 === 0) {
+  console.log(valor_1 + " é par");
+} else if (valor_1 % 2 === 1) {
+  console.log(valor_1 + " é ímpar");
+} else {
+  console.log("O número digitado é inválido!");
+}
+
+/*
+Escreva um programa que solicita a temperatura em Celsius e converte para Fahrenheit. Se a temperatura em Fahrenheit for maior ou igual a 90, exiba a mensagem "Está muito quente!". Caso contrário, exiba a mensagem "A temperatura está agradável".*/
+
+let temp = prompt("Digite a temperatura em celcius: ");
+
+let fahr = temp * 1.8 + 32;
+
+if (fahr >= 90) {
+  console.log("Está muito quente!");
+} else {
+  console.log("A temperatura está agradável");
+}
