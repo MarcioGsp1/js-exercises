@@ -574,17 +574,17 @@ console.log(fatorial(5));
 
 //Escreva um loop que imprima os números de 1 a 10 no console.
 
-let v = 10;
+let v1 = 10;
 
-for (let i = 1; i <= v; i++) {
+for (let i = 1; i <= v1; i++) {
   console.log(i);
 }
 
 //Escreva um loop que imprima os números pares de 1 a 10 no console.
 
-let v = 10;
+let v2 = 10;
 
-for(let i=1; i <= v; i++){
+for(let i=1; i <= v2; i++){
   if(i % 2 ===0){
      console.log(i);
   }
@@ -594,9 +594,9 @@ for(let i=1; i <= v; i++){
 //Escreva um loop que imprima os números ímpares de 1 a 10 no console.
 
 
-let v = 10;
+let v3 = 10;
 
-for(let i=1; i <= v; i++){
+for(let i=1; i <= v3; i++){
   if(i % 2 !==0){
      console.log(i);
   }
@@ -605,20 +605,20 @@ for(let i=1; i <= v; i++){
 
 //Escreva um loop que imprima a tabuada do número 5 no console (de 1 a 10).
 
-let v = 10;
-let i = 1;
-while(i <= v){
-  console.log(i * 5);
-i++;
+let v4 = 10;
+let i1 = 1;
+while(i1 <= v4){
+  console.log(i1 * 5);
+i1++;
 }
 
 console.log("Fim do loop");
 
 //Escreva um loop que calcule a soma dos números de 1 a 10 e imprima o resultado no console.
 
-let v = 10;
+let v5 = 10;
 
-for(let i = 1; i <= v; i++){
+for(let i = 1; i <= v5; i++){
   console.log(i + i);
 }
 
