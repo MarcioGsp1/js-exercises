@@ -570,3 +570,109 @@ function fatorial(num) {
   }
 }
 console.log(fatorial(5));
+
+
+//Escreva um loop que imprima os números de 1 a 10 no console.
+
+let v = 10;
+
+for (let i = 1; i <= v; i++) {
+  console.log(i);
+}
+
+//Escreva um loop que imprima os números pares de 1 a 10 no console.
+
+let v = 10;
+
+for(let i=1; i <= v; i++){
+  if(i % 2 ===0){
+     console.log(i);
+  }
+ 
+}
+
+//Escreva um loop que imprima os números ímpares de 1 a 10 no console.
+
+
+let v = 10;
+
+for(let i=1; i <= v; i++){
+  if(i % 2 !==0){
+     console.log(i);
+  }
+ 
+}
+
+//Escreva um loop que imprima a tabuada do número 5 no console (de 1 a 10).
+
+let v = 10;
+let i = 1;
+while(i <= v){
+  console.log(i * 5);
+i++;
+}
+
+console.log("Fim do loop");
+
+//Escreva um loop que calcule a soma dos números de 1 a 10 e imprima o resultado no console.
+
+let v = 10;
+
+for(let i = 1; i <= v; i++){
+  console.log(i + i);
+}
+
+//Escreva um loop que calcule a média dos números de 1 a 10 e imprima o resultado no console.
+
+let sum = 0;
+for (let i = 1; i <= 10; i++) {
+  sum += i;
+}
+let average = sum / 10;
+console.log(average);
+
+
+//Escreva um loop que imprima os elementos de um array no console.
+
+let arr_ = [3, true, "explorer", [2,3,4], "watermelon",(9 > 29)];
+
+for (let i = 0; i < arr_.length; i++) {
+  console.log(arr_[i]);
+}
+
+//Escreva um loop que calcule a soma dos elementos de um array e imprima o resultado no console.
+
+let arr2 = [1,2,3,4,5,6];
+let soma = 0;
+
+for(let i = 0; i < arr2.length; i++) {
+    soma += arr2[i];
+}
+
+console.log(soma);
+
+
+//Escreva um loop que calcule a média dos elementos de um array e imprima o resultado no console.
+
+let arr = [1,2,3,4,5,6];
+let soma = 0;
+
+for(let i = 0; i < arr.length; i++) {
+    soma += arr[i];
+}
+ let result$ = soma / arr.length;
+console.log(result$);
+
+//Escreva um loop que encontre o maior elemento de um array e imprima o resultado no console.
+
+
+let array = [10, 7, 15, 23, 5];
+let maiorElemento = array[0];
+
+for (let i = 1; i < array.length; i++) {
+  if (array[i] > maiorElemento) {
+    maiorElemento = array[i];
+  }
+}
+
+console.log(`O maior elemento do array é: ${maiorElemento}`);
