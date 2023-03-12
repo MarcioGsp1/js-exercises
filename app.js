@@ -496,3 +496,77 @@ if (fahr >= 90) {
 } else {
   console.log("A temperatura está agradável");
 }
+
+//Escreva uma função que recebe dois números e retorna o resultado da soma entre eles.
+
+function soma(n1, n2) {
+  return n1 + n2;
+}
+
+soma(2, 4);
+
+//Escreva uma função que recebe um número e retorna true se ele for par, e false caso contrário.
+
+function parOuImpar(n) {
+  return n % 2 === 0 ? `${n} É PAR` : `${n} É ÍMPAR`;
+}
+
+parOuImpar(72);
+
+//Escreva uma função que recebe uma string e retorna a mesma string invertida.
+
+function reverseString(str) {
+  return str.split("").reverse().join("");
+}
+reverseString("Márcio");
+
+//Escreva uma função que recebe um array de números e retorna o menor número encontrado.
+
+function minArr(arr) {
+  return Math.min(...arr);
+}
+minArr([3, 4, 21, 3, 20, 87, 99, 7, 77]);
+
+//Escreva uma função que recebe um array de números e retorna a média entre eles.
+
+function mediaArr(arr) {
+  let valorArr = 0;
+  for (i = 0; i < arr.length; i++) {
+    valorArr += arr[i];
+  }
+  return valorArr / arr.length;
+}
+let media = mediaArr([12, 24, 21, 33, 20]);
+
+console.log(media);
+
+//Escreva uma função que recebe um array de números e retorna a soma entre eles.
+
+function somaArr(arr) {
+  let valorArr = 0;
+  for (i = 0; i < arr.length; i++) {
+    valorArr += arr[i];
+  }
+  return valorArr;
+}
+let result_ = somaArr([12, 22, 121, 34, 41]);
+
+//Escreva uma função que recebe um array de números e retorna um novo array com os números ordenados em ordem crescente.
+
+function cres(arr) {
+  let newArr = arr.sort((a, b) => a - b);
+  return newArr;
+}
+
+cres([12, 22, 121, 34, 41]);
+
+//Escreva uma função que recebe um número e retorna o fatorial dele.
+
+function fatorial(num) {
+  if (num === 0 || num === 1) {
+    return 1;
+  } else {
+    return num * fatorial(num - 1);
+  }
+}
+console.log(fatorial(5));
